@@ -1,0 +1,170 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #ff69b4, #9b5de5, #f15bb5);
+  color: #fff;
+  padding: 15px 0;
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1200x500/ffb6c1/ffffff?text=Sekolah+Cinta+Pelangi') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #ff477e;
+}
+
+/* Section umum */
+section {
+  padding: 60px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #9b5de5;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* About */
+.about p {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+}
+
+/* Programs */
+.programs .program-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.program {
+  background: #ffe5f1;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.program h3 {
+  color: #ff69b4;
+  margin-bottom: 10px;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.photo img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.photo p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #9b5de5;
+}
+
+/* Contact */
+.contact p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #9b5de5, #ff69b4);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
